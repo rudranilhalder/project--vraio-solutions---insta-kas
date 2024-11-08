@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta KVM</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #da251d!important; padding-top: -1rem!important;">
+          <a class="navbar-brand" href="#" style="margin: -0.8rem!important;">
+          <img src="../src/img/logo.png" height="70" class="d-inline-block align-top" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex mx-auto" role="search" style="border-radius: 20rem; background-color: #fff; padding-left: 1rem; width: fit-content;">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="all: unset; width: 40rem;" />
+              <button class="btn btn-outline-success" type="submit" style="border-radius: 50%; background-color: var(--main-color) !important; margin: 0.1rem;">
+                <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.55873 4.6887C8.55873 6.69215 6.85001 8.35566 4.69245 8.35566C2.53489 8.35566 0.826172 6.69215 0.826172 4.6887C0.826172 2.68524 2.53489 1.02173 4.69245 1.02173C6.85001 1.02173 8.55873 2.68524 8.55873 4.6887Z" stroke="white" />
+                  <line y1="-0.5" x2="6.1453" y2="-0.5" transform="matrix(0.723425 0.690403 -0.723425 0.690403 6.67725 8.09802)" stroke="white" />
+                </svg>
+              </button>
+            </form>
+                    
+                    <span>
+                      <img style="width: 2rem !important;" src="../src/img/Footer-02.png" />
+                      <img style="width: 2rem !important;" src="../src/img/Footer-03.png" />
+                  </span>
+                  <span style="
+            justify-content: end;
+            align-items: end;
+            align-content: end;
+          ">
+                      <a class="link" href="#">Login</a>
+                      <span style="color: white">|</span>
+                      <a class="link" href="#">Sign Up</a>
+                  </span>
+          </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="justify-content: end">
+          <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./desktop6.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                  </a>
+                  <ul class="dropdown-menu">
+                  <li>
+                      <a class="dropdown-item" href="./about.html">Our Vision, Mission & Values</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./Ananya sadhana.html">Our Faculty</a></li>
+                  <li><a class="dropdown-item" href="./Ananya sadhana Store Locator.html">Our Branches</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./syllabus.html">KPSC</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./Courses Dashboard.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./toppers-corner.html">Topper's Corner</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./Resources of the day - MCQs - questions&answers.html">Resources</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./Ananya sadhana.html">Ananya Sadhana</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              </ul>
+              <div style="margin-left: 0.1rem; padding: 0.3rem;" class="socialwidget">
+                  <svg width="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_9_916)">
+                          <path
+                              d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30Z"
+                              fill="#DA251D" />
+                          <path
+                              d="M21.1252 4.5H8.9408C7.94846 4.5 7.07715 5.31635 7.07715 6.28264V24.3071C7.07715 24.6306 7.16717 24.9001 7.31226 25.1084C7.39655 25.2298 7.50908 25.3289 7.64017 25.3971C7.77125 25.4653 7.91696 25.5006 8.06473 25.5C8.34797 25.5 8.64954 25.3739 8.92802 25.136L14.3793 20.5076C14.5477 20.3638 14.7895 20.2814 15.041 20.2814C15.2923 20.2814 15.5337 20.3638 15.7026 20.508L21.1356 25.1354C21.4151 25.3739 21.6959 25.5001 21.9786 25.5001C22.4568 25.5001 22.9228 25.1313 22.9228 24.3072V6.28264C22.9228 5.31635 22.1176 4.5 21.1252 4.5Z"
+                              fill="white" />
+                      </g>
+                      <defs>
+                          <clipPath id="clip0_9_916">
+                              <rect width="30" height="30" fill="white" />
+                          </clipPath>
+                      </defs>
+                  </svg>
+              </div>
+              <div style="margin-left: 0.1rem; padding: 0.3rem;" class="socialwidget">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_9_920)">
+                          <path
+                              d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30Z"
+                              fill="#DA251D" />
+                          <path
+                              d="M22.4246 6.12771C22.1843 5.8874 21.7948 5.88748 21.5545 6.12771C21.3142 6.36798 21.3142 6.75751 21.5545 6.99778C23.3053 8.74853 24.2695 11.0763 24.2695 13.5524C24.2695 13.8921 24.545 14.1676 24.8848 14.1676C25.2246 14.1676 25.5 13.8921 25.5 13.5524C25.5 10.7476 24.4078 8.11086 22.4246 6.12771ZM8.44542 6.12775C8.20511 5.88744 7.81562 5.88752 7.57531 6.12775C5.5922 8.11102 4.5 10.7478 4.5 13.5524C4.5 13.8921 4.77546 14.1676 5.11523 14.1676C5.45501 14.1676 5.73047 13.8921 5.73047 13.5524C5.73047 11.0765 6.69466 8.74865 8.44542 6.99782C8.68569 6.75755 8.68569 6.36802 8.44542 6.12775ZM19.6904 7.99142C19.4502 8.23169 19.4502 8.62122 19.6905 8.86153C20.9435 10.1144 21.6335 11.7803 21.6335 13.5524C21.6335 13.8921 21.909 14.1676 22.2488 14.1676C22.5886 14.1676 22.864 13.8921 22.864 13.5524C22.864 11.4516 22.046 9.47672 20.5605 7.99138C20.3203 7.75115 19.9307 7.75119 19.6904 7.99142ZM10.3092 7.99171C10.0689 7.75148 9.67941 7.75152 9.43914 7.99175C7.95388 9.47717 7.13591 11.452 7.13591 13.5524C7.13591 13.8921 7.41141 14.1676 7.75114 14.1676C8.09096 14.1676 8.36638 13.8921 8.36638 13.5524C8.36638 11.7806 9.05638 10.1148 10.3092 8.86181C10.5495 8.6215 10.5495 8.23194 10.3092 7.99171ZM20.2281 18.02V14.8703C20.2281 13.7215 19.8624 12.6313 19.1704 11.7177C18.592 10.9541 17.8032 10.3576 16.917 10.0066C16.7936 9.05865 15.981 8.32422 15 8.32422C14.019 8.32422 13.2063 9.05865 13.083 10.0066C12.1968 10.3576 11.408 10.9541 10.8297 11.7177C10.1376 12.6313 9.77186 13.7215 9.77186 14.8703V18.02L8.51888 20.526C8.47198 20.6198 8.44984 20.7241 8.45455 20.8288C8.45926 20.9336 8.49068 21.0354 8.54581 21.1246C8.60094 21.2138 8.67796 21.2875 8.76955 21.3385C8.86115 21.3896 8.96427 21.4164 9.06914 21.4164H20.9309C21.0357 21.4164 21.1389 21.3896 21.2305 21.3386C21.3221 21.2875 21.3991 21.2139 21.4543 21.1247C21.5094 21.0355 21.5408 20.9336 21.5455 20.8289C21.5503 20.7241 21.5281 20.6198 21.4812 20.526L20.2281 18.02ZM15 24.0524C16.1076 24.0524 17.0871 23.4952 17.6744 22.6468H12.3256C12.9129 23.4952 13.8924 24.0524 15 24.0524Z"
+                              fill="white" />
+                      </g>
+                      <defs>
+                          <clipPath id="clip0_9_920">
+                              <rect width="30" height="30" fill="white" />
+                          </clipPath>
+                      </defs>
+                  </svg>
+              </div>
+          </div>
+          
+          
+          </div>
+      </nav>
+  </header>
+        <!-- End of Header -->
+    </div>
+    <div style="
+        display: flex;
+        padding-top: 1rem;
+        text-align: center;
+        align-items: center;
+        background-color: #545454;
+        color: #fff;
+        justify-content: center;
+      ">
+        <p>
+            latest updates or notifications goes here in a scrolling format...
+            latest updates or notifications goes here..
+        </p>
+    </div>
+    <!-- Below Header -->
+
+    <div class="container" style="margin-top: 5rem;">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card" style="padding: 2rem;">
+                    <img src="/src/img/Rectangle 1176.png" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body" style="padding-top: 5rem;">
+                        <!-- <h3 class="card-title" style="color: #545454; font-weight: 600;">CLASSROOM PROGRAMS</h3> -->
+                        <h3 style="color: #da251d; margin-top: 2rem;">Integrated Prelims and Mains test series (IPM) for all KPSC aspirants</h3>
+                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        <div style="margin-top: 1rem;">
+                            <p><span style="color: #da251d;">Starts From:</span> 20-11-2022</p>
+                            <p><span style="color: #da251d;">Total tests:</span> Prelims - 22</p>
+                        </div>
+
+                        <div>
+                            <h3 style="color: #545454; font-weight: 600; margin-bottom: 1rem; margin-top: 2rem;">Terms & Conditions:</h3>
+                        <ul>
+                            <li>Fees once paid is non-refundable and non-transferable.</li>
+                            <li>InsightsIAS reserves all the rights to make any changes to the test series like schedule of the test series etc.</li>
+                            <li>At any point of time, subscription will not carry forward to next series even if the subscriber doesn’t write a single test under the subscribed test series package.</li>
+                            <li>Course is Valid till MAINS Exam</li> 
+                        </ul>
+
+                        <div style="display: flex; margin: 1rem; padding: 1rem; background-color: #da251d; justify-content: space-between;">
+                            <h4 style="color: #fff;">Rs 5000 incl of taxes</h4>
+                            <button class="btn" style="background-color: #fff; color: #da251d; border-radius: 0%!Important; margin-left: 1rem;">Enroll Now</button>
+                        </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="padding: 2rem;">   
+                    <!-- <img src="/src/img/Rectangle 1177.png" class="card-img-top" alt="Card Image 2"> -->
+                    <div class="card-body">
+                        <h5 style="color: #da251d;" >CLASSROOM PROGRAM</h5>
+                        <ul style="list-style-type: none; padding-left: 0;">
+                            <li style="position: relative; padding-left: 1.5rem;">
+                                <span style="position: absolute; left: 0; top: 0.5rem; width: 0.5rem; height: 0.5rem; background-color: red; border-radius: 50%;"></span>
+                                Insta KAS KPSC Pre-Cum-Mains Offline/Online
+                            </li>
+                            <li style="position: relative; padding-left: 1.5rem;">
+                                <span style="position: absolute; left: 0; top: 0.5rem; width: 0.5rem; height: 0.5rem; background-color: red; border-radius: 50%;"></span>
+                                Insta KAS KPSC Prelims
+                            </li>
+                        </ul>
+                        <hr />
+                        <h5 style="color: #da251d;">Insta KAS KPSC IPM (Integrated
+                            Prelims & Mains) Test Series 2022</h5>
+                        <hr />
+                        <h5 style="color: #da251d;">Insta KAS KPSC Prelims
+                            Test Series 2022 2.0</h5>
+                        <hr />
+                        <h5 style="color: #da251d;">Insta KAS KPSC Mains
+                            Test Series 2022</h5>
+                    </div>
+                </div>
+                <div class="card" style="padding: 2rem; margin-top: 2rem;">
+                    <!-- <img src="/src/img/Rectangle 1178.png" class="card-img-top" alt="Card Image 3"> -->
+                    <div class="card-body">
+                        <button class="btn" style="background-color: #da251d; color: #fff;border-radius: 0%!Important; margin-bottom: 2rem;">Latest News</button>
+                        <p style="color: #da251d;">KPSC 2022 Daily Current Affairs</p>
+                        <p>Daily Current Affairs</p>
+                        <p style="color: #da251d;">Inspiro UPSC KPSC App</p>
+                        <p>Karnataka Administrative Services (KAS), Karnataka Public Service Commission (K.P.S.C) TECHNICAL, NON TECHNICAL, group C, P.D.O, FDA,PSI, S.D.A, A.C.F, R.F.O.</p>
+                        <p style="color: #da251d;">KAS 2023 Mains Test Series</p>
+                        <p>We are announcing Our Exclusive Writing Skill Course to score high marks in KAS Mains 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Footer -->
+
+    <div class="container" style="margin-top: 5rem;">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col mb-3">
+              <img src="/src/img/KAS-2 1.png" class="footer-logo" />
+              <p style="font-size: 1rem;"></p>
+                Insta KAS has redefined, revolutionised and simplified the way aspirants prepare for KPSC Civil Services Exam.
+              </p>
+              <div style="display: flex; gap: 1rem" class="socials">
+                <img src="/src/img/facebook-logo.svg" />
+                <img src="/src/img/instagram.svg" />
+                <img src="/src/img/linkedin.svg" />
+                <img src="/src/img/twitter.svg" />
+              </div>
+            </div>
+      
+            <div class="col mb-3">
+              <p style="font-size: 1.5rem; line-height: 1.5rem">Useful Links</p>
+              <ol style="list-style-type: none; padding-left: 0">
+                  <li><a href="./desktop6.html" style="text-decoration: none; color: inherit;">Home</a></li>
+                  <li><a href="./syllabus.html" style="text-decoration: none; color: inherit;">KPSC</a></li>
+                  <li><a href="./toppers-corner.html" style="text-decoration: none; color: inherit;">Topper's Corner</a></li>
+                  <li><a href="./Resources of the day - MCQs - questions&answers.html" style="text-decoration: none; color: inherit;">Resources</a></li>
+                  <li><a href="./Ananya sadhana.html" style="text-decoration: none; color: inherit;">Ananya Sadhana</a></li>
+                  <li><a href="./contact.html" style="text-decoration: none; color: inherit;">Contact Us</a></li>
+              </ol>
+            </div>
+      
+            <div class="col mb-3">
+              <p style="font-size: 1.5rem; line-height: 1.5rem">About Us</p>
+              <ol style="list-style-type: none; padding-left: 0">
+                  <li><a href="./about.html" style="text-decoration: none; color: inherit;">About Insta KAS</a></li>
+                  <li><a href="./toppers-corner.html" style="text-decoration: none; color: inherit;">Our Achievements</a></li>
+                  <li><a href="./Ananya sadhana Store Locator.html" style="text-decoration: none; color: inherit;">Branches</a></li>
+                  <li><a href="./Ananya sadhana.html" style="text-decoration: none; color: inherit;">Faculty</a></li>
+                  <li><a href="./gallery.html" style="text-decoration: none; color: inherit;">Gallery</a></li>
+              </ol>
+            </div>
+      
+            <div class="col mb-3">
+              <p style="font-size: 1.5rem; line-height: 1.5rem">Courses</p>
+              <ol style="list-style-type: none; padding-left: 0">
+                  <li><a href="./classroom program.html" style="text-decoration: none; color: inherit;">Classroom Program</a></li>
+                  <li><a href="./IPM.html" style="text-decoration: none; color: inherit;">IPM</a></li>
+                  <li><a href="./prelims-test-series.html" style="text-decoration: none; color: inherit;">Prelims</a></li>
+                  <li><a href="./mains_question_paper.html" style="text-decoration: none; color: inherit;">Mains</a></li>
+              </ol>
+            </div>
+      
+            <div class="col mb-3">
+              <p style="font-size: 1.5rem; line-height: 1.5rem">Contact Us</p>
+              <ol style="list-style-type: none; padding-left: 0;">
+                <li><span style="margin: 0.1%;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </span>+91 8899556633</li>
+                <li><span style="margin: 0.1%;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </span>info@instakas.com</li>
+                <li><span style="margin: 0.1%;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </span>InsightsIAS Headquarters, Nanda Ashirwad Complex, 3rd Floor, Above Village Hyper Market, Chandralyout Main Road, Attiguppe , Bengaluru - 560040 </li>
+              </ol>
+            </div>
+          </footer>
+    </div>
+
+
+    <!-- End Of Page -->
+</body>
+
+</html>
